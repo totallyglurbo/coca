@@ -29,3 +29,4 @@ drawTotals('expense', [
     { x: 60, height: 40 },
     { x: 80, height: 30 }
 ])
+//
