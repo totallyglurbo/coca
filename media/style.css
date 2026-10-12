@@ -231,6 +231,7 @@ label {
     flex-direction: column;
     row-gap: 5px;
     color: var(--grey-clr);
+    align-self: center;
 }
 .stat-graph > div > div {
     display: flex;
@@ -493,6 +494,9 @@ footer a, footer p {
 .footer-nav p {
     font-weight: bold;
 }
+canvas {
+    align-self: center;
+}
 @media(min-width: 600px) {
     .main-header > .container {
         display: flex;
@@ -518,7 +522,7 @@ footer a, footer p {
         right: 10px;
     }
     .sales-report, .sales {
-        width: 60%;
+        width: 80%;
     }
     .legend {
         justify-content: flex-start;
@@ -603,6 +607,11 @@ footer a, footer p {
 
     .container {
         width: 80%;
+    }
+    
+    .header-nav {
+        justify-content: flex-end;
+        column-gap: 50px;
     }
 
     main {
