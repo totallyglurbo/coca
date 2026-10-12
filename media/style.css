@@ -264,7 +264,7 @@ ul {
 .revenue-article {
     display: flex;
     flex-direction: column;
-    row-gap: 15px;
+    row-gap: 30px;
 }
 .revenue-article p {
     color: var(--grey-clr);
@@ -368,7 +368,7 @@ ul {
 .news > div > div {
     display: flex;
     gap: 15px;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
     position: relative;
 }
